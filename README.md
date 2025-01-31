@@ -1,4 +1,4 @@
-# Object Detection Training Pipeline
+# Cataract
 
 This repository contains a PyTorch-based object detection training pipeline using `torchvision.models.detection`. The project supports various object detection models, including Faster R-CNN, SSD, and FCOS.
 

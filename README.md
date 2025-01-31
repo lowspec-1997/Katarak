@@ -1,6 +1,6 @@
 # Object Detection Training Pipeline
 
-This repository contains a PyTorch-based object detection training pipeline using `torchvision.models.detection`. The project supports various object detection models, including Faster R-CNN, SSD, FCOS, and YOLO.
+This repository contains a PyTorch-based object detection training pipeline using `torchvision.models.detection`. The project supports various object detection models, including Faster R-CNN, SSD, and FCOS.
 
 ## Features
 - **Pretrained Model Support**: Uses `torchvision` models with fine-tuning.
@@ -48,6 +48,9 @@ You can download the dataset from the following link:
 1. Prepare the dataset:
    - Organize images and annotation files.
    - Update `config.py` with dataset paths.
+   - Run `model.py`
+   - after that `custom_utils.py`
+   - and then `datasets`
 
 2. Start training:
    ```sh

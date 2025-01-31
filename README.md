@@ -41,6 +41,7 @@ object-detection-training/
 ## Dataset
 
 You can download the dataset from the following link:
+
 [[Your Dataset Link Here](https://drive.google.com/drive/folders/1SDd7RRkTR6-qAKhGqUUudZp0FwaHxaBd?usp=sharing)]
 
 ## Training the Model
@@ -99,9 +100,13 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50)
 ```
 
 ## Current Result 
-- Images [[Your Current Images Link Here](https://drive.google.com/drive/folders/115o8JUMa-L8Uw3hDuYzDc9IRUg3_U_KY?usp=sharing)]
-- Video [[Your Current Videos Link Here](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing)]
-- Model [[Your Current Model Link Here](https://drive.google.com/drive/folders/1NAp8JGcUZUDB2LvVDNZ1jqWVthen3Xdz?usp=sharing)]
+- Images
+ [[Your Current Images Link Here](https://drive.google.com/drive/folders/115o8JUMa-L8Uw3hDuYzDc9IRUg3_U_KY?usp=sharing)] 
+- Video
+  [[Your Current Videos Link Here](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing)]
+- Model
+  [[Your Current Model Link Here](https://drive.google.com/drive/folders/1NAp8JGcUZUDB2LvVDNZ1jqWVthen3Xdz?usp=sharing)]
+  
 
 ## License
 This project is licensed under the MIT License.

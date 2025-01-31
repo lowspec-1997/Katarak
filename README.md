@@ -41,7 +41,7 @@ object-detection-training/
 ## Dataset
 
 You can download the dataset from the following link:
-[Your Dataset Link Here](your-dataset-url)
+[Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/1SDd7RRkTR6-qAKhGqUUudZp0FwaHxaBd?usp=sharing))
 
 ## Training the Model
 
@@ -93,13 +93,10 @@ And switch the scheduler:
 scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50)
 ```
 
-## Future Enhancements
-- Add support for COCO dataset.
-- Implement YOLOv8 integration.
-- Support multi-GPU training.
-
-## Contributing
-Feel free to submit issues and pull requests to improve this project!
+## Current Result 
+- Images [Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/115o8JUMa-L8Uw3hDuYzDc9IRUg3_U_KY?usp=sharing))
+- Video [Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing))
+- Model [Your Dataset Link Here]([[your-dataset-url](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing)](https://drive.google.com/drive/folders/1NAp8JGcUZUDB2LvVDNZ1jqWVthen3Xdz?usp=sharing))
 
 ## License
 This project is licensed under the MIT License.

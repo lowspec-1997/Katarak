@@ -41,23 +41,28 @@ object-detection-training/
 ## Dataset
 
 You can download the dataset from the following link:
-[Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/1SDd7RRkTR6-qAKhGqUUudZp0FwaHxaBd?usp=sharing))
+[[Your Dataset Link Here](https://drive.google.com/drive/folders/1SDd7RRkTR6-qAKhGqUUudZp0FwaHxaBd?usp=sharing)]
 
 ## Training the Model
 
 1. Prepare the dataset:
-   - Organize images and annotation files.
-   - Update `config.py` with dataset paths.
-   - Run `model.py`
-   - after that `custom_utils.py`
-   - and then `datasets`
 
-2. Start training:
+   a. Organize images and annotation files.
+   
+   b. Update `config.py` with dataset paths.
+
+   c. Run `model.py`
+
+   d. after that `custom_utils.py`
+
+   e. and then `datasets`
+
+3. Start training:
    ```sh
    python train.py
    ```
 
-3. Monitor loss and performance:
+4. Monitor loss and performance:
    - Loss and mAP plots will be saved in `outputs/`.
    - The best-performing model is automatically stored.
 
@@ -94,9 +99,9 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=50)
 ```
 
 ## Current Result 
-- Images [Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/115o8JUMa-L8Uw3hDuYzDc9IRUg3_U_KY?usp=sharing))
-- Video [Your Dataset Link Here]([your-dataset-url](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing))
-- Model [Your Dataset Link Here]([[your-dataset-url](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing)](https://drive.google.com/drive/folders/1NAp8JGcUZUDB2LvVDNZ1jqWVthen3Xdz?usp=sharing))
+- Images [[Your Current Images Link Here](https://drive.google.com/drive/folders/115o8JUMa-L8Uw3hDuYzDc9IRUg3_U_KY?usp=sharing)]
+- Video [[Your Current Videos Link Here](https://drive.google.com/drive/folders/1YyFjdbCpXENRFIiicaj6gtG1BxzjaWg9?usp=sharing)]
+- Model [[Your Current Model Link Here](https://drive.google.com/drive/folders/1NAp8JGcUZUDB2LvVDNZ1jqWVthen3Xdz?usp=sharing)]
 
 ## License
 This project is licensed under the MIT License.
